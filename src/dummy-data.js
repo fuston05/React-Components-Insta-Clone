@@ -49,7 +49,7 @@ const dummyData = [
       username: "suziescoffee",
       thumbnailUrl: 'http://blog.room34.com/wp-content/uploads/underdog/logo.thumbnail.png',
       imageUrl: 'https://images.unsplash.com/photo-1579388642426-fa20f2f6f967?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
-      likes: 400,
+      likes: 642,
       timestamp: "July 17th 2017, 12:42:40 pm",
       comments: [
           {
@@ -70,7 +70,7 @@ const dummyData = [
     username: "sayWhaaat",
     thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeXOkiMg4nUWhglRaDxBdTfT4RQQ9ve--NjwYajkNnqyY7vPHxUw&s',
     imageUrl: 'https://images.unsplash.com/photo-1575909813087-8529d4a3c434?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
-    likes: 400,
+    likes: 170,
     timestamp: "July 17th 2017, 12:42:40 pm",
     comments: [
         {

@@ -13,7 +13,7 @@ import "./App.css";
 // import dummydata
 
 const App = () => {
-  const [data, setData]= useState(dummyData);
+  const [data]= useState(dummyData);
   // set up state for the dummy data and pass to your PostsPage
   return (
     <div className="App">
