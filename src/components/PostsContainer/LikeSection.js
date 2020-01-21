@@ -1,13 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
+
+
 
 const LikeSection = props => {
+  const [likes, setLikes]= useState(props.data.likes);
+  function addLikes(){
+    setLikes(likes=> likes+1);
+  }//end func
   return (
     <div>
     <div
       className="like-section"
       key="likes-icons-container"
     >
-      <div className="like-section-wrapper">
+      <div onClick= {(e) => {addLikes()}} className="like-section-wrapper">
         <i className="far fa-heart" />
       </div>
       <div className="like-section-wrapper">
@@ -16,7 +22,7 @@ const LikeSection = props => {
     </div>
     <p className="like-number">
       
-    {props.likes}</p>
+    {likes}</p>
 </div>
   )
 };

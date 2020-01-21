@@ -21,7 +21,7 @@ const App = () => {
       {/* Add components here  and pass props where appropriate */}
       <SearchBar />
       <PostPage data= {data} />
-      {console.log('from app, data: ', data)}
+      {/* {console.log('from app, data: ', data)} */}
     </div>
   );
 };

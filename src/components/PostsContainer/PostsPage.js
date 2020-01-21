@@ -10,7 +10,7 @@ const PostsPage = (props) => {
       {/* map through data here */}
       {
         props.data.map( (ele, i) => {
-          console.log('from postPage, post: ', ele);
+          // console.log('from postPage, post: ', ele);
           return (
             <Post key= {i} post= {ele} />
             
