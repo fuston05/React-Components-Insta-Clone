@@ -9,7 +9,7 @@ const CommentSection = props => {
   const [comments, setComments] = useState(props.comments);
   const [id, setId] = useState(props.postId);
   // console.log('comments: ', comments);
-
+  
   return (
     <div>
       {/* map through the comments data and return the Comment component */}
