@@ -44,7 +44,49 @@ const dummyData = [
                 text: "It that injustice"
             }
         ]
-    }
+    }, 
+    {
+      username: "suziescoffee",
+      thumbnailUrl: 'http://blog.room34.com/wp-content/uploads/underdog/logo.thumbnail.png',
+      imageUrl: 'https://images.unsplash.com/photo-1579388642426-fa20f2f6f967?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
+      likes: 642,
+      timestamp: "July 17th 2017, 12:42:40 pm",
+      comments: [
+          {
+              username: "philzcoffee",
+              text: "We've got more than just delicious coffees to offer at our shops!"
+          },
+          {
+              username: "biancasaurus",
+              text: "Looks delicious!"
+          },
+          {
+              username: "martinseludo",
+              text: "Can't wait to try it!"
+          }
+      ]
+  },
+  {
+    username: "sayWhaaat",
+    thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeXOkiMg4nUWhglRaDxBdTfT4RQQ9ve--NjwYajkNnqyY7vPHxUw&s',
+    imageUrl: 'https://images.unsplash.com/photo-1575909813087-8529d4a3c434?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
+    likes: 170,
+    timestamp: "July 17th 2017, 12:42:40 pm",
+    comments: [
+        {
+            username: "fuston05",
+            text: "We've got more than just delicious coffees to offer at our shops!"
+        },
+        {
+            username: "biancasaurus",
+            text: "Looks delicious!"
+        },
+        {
+            username: "suziescoffee",
+            text: "Can't wait to try it!"
+        }
+    ]
+}
 ];
 
 export default dummyData;
